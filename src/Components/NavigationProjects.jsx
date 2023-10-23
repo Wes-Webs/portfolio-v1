@@ -64,7 +64,7 @@ function Navigation() {
           <ul class={`animate__animated animate__fadeIn navbar-nav`}>
             <li class={``}>
               <Link
-                className="react-scroll-link text-white px-3 text-decoration-none" // Add the CSS class here
+                className="react-scroll-link text-white pr-2 text-decoration-none" // Add the CSS class here
                 to={-1} // Adjust this value as needed
               >
                 <i class="fa-solid fa-arrow-left"></i> GO BACK
