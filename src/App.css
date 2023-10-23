@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+/* Colors
+#199db2 = teal
+#1c2455 = dark blue
+#0d73b1 = light blue */
+
+.header-dots {
+    color: #0d73b1;
+    font-size: xx-large;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body-text {
+    color: #555;
+    font-size: 18px;
+    font-family: 'Varela', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sub-header {
+    color: #555;
+    font-size: 20px;
+    font-family: 'Varela', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.skill-pill {
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
 }
 
-.App-link {
-  color: #61dafb;
+.about-text-bold {
+    font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.footer-body-text {
+    font-family: 'Varela', sans-serif;
+}
+
+.footer-header {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.nav-name {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Add this CSS in your stylesheet (e.g., App.css or a dedicated CSS file) */
+.react-scroll-link {
+    color: #000; /* Change this to your desired text color */
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Add smooth color transition on hover */
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.react-scroll-link:hover {
+    color: #0d73b1 !important; /* Change this to your desired hover color */
+    text-decoration: none;
+}
+
+.social-link {
+    color: white;
+}
+
+.social-link:hover {
+    color: #0d73b1;
+}
+
+#contact-form {
+    width: 75%;
+}
+
+.btn-custom-projects {
+    width: 35%;
+    min-width: 221px;
+    max-width: 221px;
+    text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    #contact-form {
+      width:100%;
+    }
+    .btn-custom-projects {
+        width: 100%;
+        display: inline;
+    }
+    .footer-body-text {
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .projects-block {
+        text-align: center;
+        align-items: center;
+    }
+    .custom-button-3 {
+        width: 100%;
+    }
 }

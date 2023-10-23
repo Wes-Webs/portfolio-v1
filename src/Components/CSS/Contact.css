@@ -1,0 +1,36 @@
+#contact {
+    position: relative;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#contact::before {
+    content: "";
+    background-image: url("/src/Images/Contact-Background-2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -2;
+}
+
+#contact-form {
+    background-color: white;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+#contact-message {
+  background-color: #f0f0f0;
+  font-size: smaller;
+}

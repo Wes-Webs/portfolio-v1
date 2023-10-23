@@ -1,0 +1,201 @@
+#landing-page {
+    position: relative;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 80px;
+}
+
+#landing-page::before {
+    content: "";
+    background-image: url("/src/Images/Landing-Page-Background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -2;
+}
+
+/* Style for the custom button */
+.custom-button {
+    background-color: #199db2;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    /* max-width: 200px; */
+}
+
+.custom-button-2 {
+    background-color: white;
+    color: black;
+    border-color: #199db2;
+    transition: transform 0.2s ease-in-out;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 2px;
+}
+
+.custom-button-3 {
+    background-color: #199db2;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 2px;
+    /* max-width: 200px; */
+}
+
+@media (max-width: 572px) {
+    .custom-button-3 {
+        min-width: 100%;
+    }
+}
+
+/* Add a slight bounce effect on hover */
+.custom-button:hover {
+    transform: translateY(-5px);
+}
+
+.landing-page-text {
+    z-index: 1;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.heading-primary {
+    font-size: 4rem;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+}
+
+#bounce-arrow {
+    animation: bounce 2s infinite cubic-bezier(0.25, 1, 0.5, 1); /* Adjust the duration and easing function as needed */
+    animation-delay: 1s; /* Delay before the animation starts */
+}
+
+.sticky-socials {
+    position: absolute;
+    left: 30px;
+    top: 275px;
+}
+
+.social-link-nav {
+    color: white;
+}
+
+.social-link-nav:hover {
+    color:  #199db2;
+}
+
+@media (max-width: 1375px) {
+    /* Add your CSS rules here to hide the element */
+    .social-link-nav {
+      display: none;
+    }
+  }
+#shop-local-banner {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 80px;
+}
+
+#shop-local-banner::before {
+    content: "";
+    background-image: url("/src/Images/Contact-Background-2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -2;
+}
+
+#shop-wow-banner {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 80px;
+}
+
+#shop-wow-banner::before {
+    content: "";
+    background-image: url("/src/Images/Contact-Background-2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -2;
+}
+
+#error {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 80px;
+}
+
+#error::before {
+    content: "";
+    background-image: url("/src/Images/Contact-Background-2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -2;
+}
+
+@media (max-width: 425px) {
+    .heading-primary {
+      font-size: 3em;
+    }
+    .landing-text-block {
+        text-align: center;
+    }
+    
+    /* .sticky-socials {
+        flex-direction: row !important;
+        justify-content: center;
+    }
+    .social-link-nav {
+        display: ;
+    } */
+}
