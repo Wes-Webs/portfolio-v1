@@ -27,7 +27,7 @@ function ShopWow() {
             </div>
             <h3 className='mb-4'>See Live</h3>
             <div className='d-flex flex-column flex-sm-row'>
-            <a href='https://goshopwow.com/' className='text-white' style={{textDecoration: 'none'}} target='_blank'><button className='btn btn-custom btn-lg custom-button px-5 py-3 mb-3 mb-sm-0 mr-sm-2'>PROJECT LINK</button></a>
+            <button className='btn btn-custom btn-lg custom-button px-5 py-3 mb-3 mb-sm-0 mr-sm-2'><a href='https://goshopwow.com/' className='text-white' style={{textDecoration: 'none'}} target='_blank'>PROJECT LINK</a></button>
                 <Link to={-1} className='btn btn-custom btn-lg custom-button-2 px-5 py-3'><span>GO BACK</span></Link>
             </div>
         </div>
