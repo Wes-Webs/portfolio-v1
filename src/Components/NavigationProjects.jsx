@@ -31,7 +31,7 @@ function Navigation() {
   }, []);
 
   // Define a CSS class for the navigation bar based on scroll position
-  const navClass = isScrolled ? 'fixed-top text-white py-2 px-sm-5' : 'fixed-top text-white py-2 px-sm-5';
+  const navClass = isScrolled ? 'navbar-expand-lg fixed-top text-white px-sm-5' : 'navbar-expand-lg fixed-top text-white px-sm-5';
   const bgColor = '#1c2455';
 
   // Define a CSS transition for the background color
@@ -45,7 +45,7 @@ function Navigation() {
 
   return (
     <nav id="main-navigation" className={navClass}  style={transitionStyle}>
-      <div class="d-flex flex-row align-items-center justify-content-between">
+      <div class="navbar d-flex flex-row align-items-center justify-content-between">
         <div class="navbar-brand d-flex flex-row align-items-center pr-0">
             <img
               src={myImage}
