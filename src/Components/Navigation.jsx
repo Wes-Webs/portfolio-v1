@@ -62,14 +62,22 @@ function Navigation() {
   return (
     <nav id="main-navigation" className={navClass}  style={transitionStyle}>
       <div class="navbar-brand d-flex flex-row align-items-center pr-0">
-          <img
-            src={myImage}
-            alt="Wesley Wood"
-            className="animate__animated animate__fadeIn  image-fluid rounded-circle mr-3"
-            style={{ maxHeight: '60px', border: '2px solid #1c2455' }}
-          />
           <ScrollLink
-              className="react-scroll-link text-white navbar-brand text-decoration-none" // Add the CSS class here
+              className="react-scroll-link-2 text-white navbar-brand text-decoration-none" // Add the CSS class here
+              to="landing-page"
+              smooth={true}
+              duration={500}
+              offset={-50}
+              >
+            <img
+              src={myImage}
+              alt="Wesley Wood"
+              className="animate__animated animate__fadeIn  image-fluid rounded-circle"
+              style={{ maxHeight: '60px', border: '2px solid #1c2455' }}
+            />
+          </ScrollLink>
+          <ScrollLink
+              className="react-scroll-link-2 text-white navbar-brand text-decoration-none" // Add the CSS class here
               to="landing-page"
               smooth={true}
               duration={500}

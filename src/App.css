@@ -49,7 +49,8 @@
 }
 
 /* Add this CSS in your stylesheet (e.g., App.css or a dedicated CSS file) */
-.react-scroll-link {
+.react-scroll-link,
+.react-scroll-link-2 {
     color: #000; /* Change this to your desired text color */
     text-decoration: none;
     cursor: pointer;
@@ -60,7 +61,11 @@
 }
 
 .react-scroll-link:hover {
-    color: #0d73b1 !important; /* Change this to your desired hover color */
+    color: #0d73b1 !important;
+    text-decoration: none;
+}
+
+.react-scroll-link-2:hover {
     text-decoration: none;
 }
 
