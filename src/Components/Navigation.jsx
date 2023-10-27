@@ -61,7 +61,7 @@ function Navigation() {
 
   return (
     <nav id="main-navigation" className={navClass}  style={transitionStyle}>
-      <div class="navbar-brand d-flex flex-row align-items-center pr-0">
+      <div class="navbar-brand d-flex flex-row align-items-center pr-0 py-0">
           <ScrollLink
               className="react-scroll-link-2 text-white navbar-brand text-decoration-none" // Add the CSS class here
               to="landing-page"
