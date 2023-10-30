@@ -20,10 +20,10 @@ function About() {
                     I'm a <span className="about-text-bold">Web Developer</span> dedicated to crafting interactive and visually captivating front-end experiences for websites and web applications. Check out some of my work in the <span className="about-text-bold">Projects</span> section.
                 </p>
                 <p className="body-text">
-                    In addition to my development work, I'm passionate about sharing my knowledge accrued over my years in web development so it can help other people of the Dev Community. Feel free to <span className="about-text-bold">Connect</span> or <span className="about-text-bold">Follow me</span> on my <a href="https://www.linkedin.com/in/wesley-wood-30215422a/" className="about-text-bold" style={{color: '#199db2'}}>Linkedin</a> where I post useful content related to Web Development and Programming.
+                    In addition to my development work, I'm passionate about sharing the knowledge I have accrued over the years so it can help other people in the Dev Community. <span className="about-text-bold">Connect</span> or <span className="about-text-bold">Follow me</span> on my <a href="https://www.linkedin.com/in/wesley-wood-30215422a/" className="about-text-bold" style={{color: '#199db2'}}>Linkedin</a> where I post useful content related to Web Development and Programming.
                 </p>
                 <p className="body-text">
-                    I am enthusiastically seeking new opportunities where I can not only contribute my skills but also continue my professional growth journey. If you have an exciting opportunity that aligns with my skillset and experience, please don't hesitate to <span className="about-text-bold">reach out</span>. I'm ready to make a meaningful impact.
+                    I am enthusiastically seeking new opportunities where I can not only contribute my skills, but also continue my professional growth journey. If you have an exciting opportunity that aligns with my skillset and experience, please don't hesitate to <span className="about-text-bold">reach out</span>. I'm ready to make a meaningful impact.
                 </p>
                 <Link to="contact" smooth={true} duration={500} offset={-50}><button className='btn btn-custom btn-lg custom-button px-5 py-3'>CONTACT</button></Link>
             </div>
