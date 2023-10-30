@@ -45,8 +45,8 @@ function Navigation() {
 
   return (
     <nav id="main-navigation" className={navClass}  style={transitionStyle}>
-      <div class="navbar d-flex flex-row align-items-center justify-content-between">
-        <div class="navbar-brand d-flex flex-row align-items-center pr-0">
+      <div className="navbar d-flex flex-row align-items-center justify-content-between">
+        <div className="navbar-brand d-flex flex-row align-items-center pr-0">
             <img
               src={myImage}
               alt="Wesley Wood"
@@ -60,14 +60,14 @@ function Navigation() {
                 <div className="animate__animated animate__fadeIn nav-name pr-0">WESLEY WOOD</div>
             </Link>
         </div>
-        <div class="" id="">
-          <ul class={`animate__animated animate__fadeIn navbar-nav`}>
-            <li class={``}>
+        <div>
+          <ul className={`animate__animated animate__fadeIn navbar-nav`}>
+            <li>
               <Link
                 className="react-scroll-link text-white pr-2 text-decoration-none" // Add the CSS class here
                 to={-1} // Adjust this value as needed
               >
-                <i class="fa-solid fa-arrow-left"></i> GO BACK
+                <i className="fa-solid fa-arrow-left"></i> GO BACK
               </Link >
             </li>
           </ul>

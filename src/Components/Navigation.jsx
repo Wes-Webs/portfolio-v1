@@ -61,7 +61,7 @@ function Navigation() {
 
   return (
     <nav id="main-navigation" className={navClass}  style={transitionStyle}>
-      <div class="navbar-brand d-flex flex-row align-items-center pr-0 py-0">
+      <div className="navbar-brand d-flex flex-row align-items-center pr-0 py-0">
           <ScrollLink
               className="react-scroll-link-2 text-white navbar-brand text-decoration-none" // Add the CSS class here
               to="landing-page"
@@ -86,8 +86,8 @@ function Navigation() {
               <div className="animate__animated animate__fadeIn nav-name pr-0">WESLEY WOOD</div>
           </ScrollLink>
       </div>
-      <button class="navbar-toggler border-white text-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded={isNavOpen ? 'true' : 'false'} aria-label="Toggle navigation" onClick={toggleNav} style={{minWidth: '60px',  borderColor: 'white !important'}}>
-        <span class="border-white p-1">
+      <button className="navbar-toggler border-white text-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded={isNavOpen ? 'true' : 'false'} aria-label="Toggle navigation" onClick={toggleNav} style={{minWidth: '60px',  borderColor: 'white !important'}}>
+        <span className="border-white p-1">
           {isNavOpen ? (
               <i className="fa-solid fa-times p-1"></i>
             ) : (
@@ -95,9 +95,9 @@ function Navigation() {
             )}
         </span>
       </button>
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class={`animate__animated animate__fadeIn navbar-nav ml-auto ${listItemMarginClass}`}>
-          <li class={`nav-item ${listItemBorderClass}`}>
+      <div className="collapse navbar-collapse text-right" id="navbarNav">
+        <ul className={`animate__animated animate__fadeIn navbar-nav ml-auto ${listItemMarginClass}`}>
+          <li className={`nav-item ${listItemBorderClass}`}>
             <ScrollLink
               className="react-scroll-link text-white nav-item nav-link px-3 text-decoration-none" // Add the CSS class here
               to="landing-page" // Adjust this value as needed
@@ -108,7 +108,7 @@ function Navigation() {
               HOME
             </ScrollLink >
           </li>
-          <li class={`nav-item ${listItemBorderClass}`}>
+          <li className={`nav-item ${listItemBorderClass}`}>
             <ScrollLink
               className="react-scroll-link nav-item nav-link px-3" // Add the CSS class here
               to="about"
@@ -119,7 +119,7 @@ function Navigation() {
               ABOUT
             </ScrollLink>
           </li>
-          <li class={`nav-item ${listItemBorderClass}`}>
+          <li className={`nav-item ${listItemBorderClass}`}>
             <ScrollLink
               className="react-scroll-link nav-item nav-link px-3" // Add the CSS class here
               to="projects"
@@ -130,7 +130,7 @@ function Navigation() {
               PROJECTS
             </ScrollLink>
           </li>
-          <li class={`nav-item ${listItemBorderClass}`}>
+          <li className={`nav-item ${listItemBorderClass}`}>
             <ScrollLink
               className="react-scroll-link nav-item nav-link px-3" // Add the CSS class here
               to="contact"

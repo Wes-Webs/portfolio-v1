@@ -9,7 +9,7 @@ function ShopLocal() {
             </div>
             <h3 className='mb-4'>Project Overview</h3>
             <p>
-                Shop Local helps the best independent retailers across the United States, Canada, and the Carribean sell online. Our platform provides retailers and their brands with tools to collaborate, compete online, and prosper financially.
+                Shop Local helps the best independent retailers across the United States, Canada, and the Carribean sell online. The platform provides retailers and their brands with tools to collaborate, compete online, and prosper financially.
             </p>
             <p>
                 The goal is to help stores offer a great shopping experience with the best products, competitive prices, and quick delivery.

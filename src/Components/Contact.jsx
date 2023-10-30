@@ -62,31 +62,31 @@ function Contact() {
         </div>
         <h5 className="text-center mb-2 mb-lg-5 mb-md-4 mb-sm-3 sub-header">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</h5>
         <form id="contact-form" className='mx-auto p-lg-5 p-md-4 p-sm-3 p-3' onSubmit={handleContactInfo} >
-            <div class="form-group">
-                <label for="formGroupExampleInput">Name</label>
-                <input type="text" class="form-control form-control-lg" id="contact-name" placeholder="Enter Your Name" onChange={updateName} required/>
+            <div className="form-group">
+                <label htmlFor="contact-name">Name</label>
+                <input type="text" className="form-control form-control-lg" id="contact-name" placeholder="Enter Your Name" onChange={updateName} required/>
             </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput2">Email</label>
-                <input type="email" class="form-control form-control-lg" id="contact-email" placeholder="Enter Your Email" onChange={updateEmail} required/>
+            <div className="form-group">
+                <label htmlFor="contact-email">Email</label>
+                <input type="email" className="form-control form-control-lg" id="contact-email" placeholder="Enter Your Email" onChange={updateEmail} required/>
             </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput2">Phone Number</label>
-                <input type="tel" class="form-control form-control-lg" id="contact-phone" placeholder="Enter Your Phone Number" onChange={updatePhone}/>
+            <div className="form-group">
+                <label htmlFor="contact-phone">Phone Number</label>
+                <input type="tel" className="form-control form-control-lg" id="contact-phone" placeholder="Enter Your Phone Number" onChange={updatePhone}/>
             </div>
-            <div class="form-group">
-                <label for="formGroupExampleInput2">Message</label>
-                <textarea rows="5" type="text" class="form-control form-control-lg" id="contact-message" placeholder="Enter Your Message" onChange={updateMessage} required/>
+            <div className="form-group">
+                <label htmlFor="contact-message">Message</label>
+                <textarea rows="5" type="text" className="form-control form-control-lg" id="contact-message" placeholder="Enter Your Message" onChange={updateMessage} required/>
             </div>
             <div className='d-flex flex-sm-row flex-column align-items-center justify-content-between'>
                 <div>
                     {showAlert && (
-                        <div class="alert alert-success mt-3 text-center" role="alert">
+                        <div className="alert alert-success mt-3 text-center" role="alert">
                             I have received your message! I will contact you shortly.
                         </div>
                     )}
                     {showErrorAlert && (
-                        <div class="alert alert-danger mt-3 text-center" role="alert">
+                        <div className="alert alert-danger mt-3 text-center" role="alert">
                             Please make sure the information above is valid.
                         </div>
                     )}

@@ -49,7 +49,7 @@ function Projects() {
                 <h3 className="mb-4 header">Big Bite Donuts</h3>
                 <div className='mb-4'><i>React Project</i></div>
                 <p className='body-text'>
-                    Big Bite Donuts is a personal project that I built based off of a donut shops website that I really like. I wanted to show that I can build sites for the restaurant and food industry. Mock checkout is pending.
+                  Big Bite Donuts is a personal project I created, inspired by a local donut shop's website that I admire. I aimed to demonstrate my ability to design websites for the restaurant and food industry. The mock checkout feature is currently pending.
                 </p>
                 <Link to="/donut-shop" style={{textDecoration:'none'}}><button className='btn btn-custom-projects btn-lg custom-button px-5 py-3'>CASE STUDY</button></Link>
             </div>
