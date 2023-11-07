@@ -14,7 +14,7 @@ function DonutShop() {
           <div className='mb-5'>
             <h1 className='heading-primary mb-5 landing-page-text'>BIG BITE DONUTS</h1>
             <h4 className='mb-5 landing-page-text' style={{lineHeight: '40px'}}>This page contains the case study of Big Bite Donuts React project which includes the project overview, tools used and live links to the official product.</h4>
-            <a href='https://lovely-sorbet-68dc18.netlify.app/' target='_blank'><button className='btn btn-custom btn-lg custom-button px-5 py-3'>PROJECT LINK</button></a>
+            <a href='https://starlit-rugelach-42dc6c.netlify.app/' target='_blank'><button className='btn btn-custom btn-lg custom-button px-5 py-3'>PROJECT LINK</button></a>
           </div>
         </div>
       </div>
