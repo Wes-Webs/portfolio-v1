@@ -12,9 +12,9 @@ function ShopWowBanner() {
         </div> */}
         <div className='d-flex flex-column text-center'>
           <div className='mb-5'>
-            <h1 className='heading-primary mb-5 landing-page-text'>SHOP WOW</h1>
+            <h1 className='heading-primary mb-5 landing-page-text'>SHOP WOW <span className='text-muted'>(Under Maintenance)</span></h1>
             <h4 className='mb-5 landing-page-text' style={{lineHeight: '40px'}}>This page contains the case study of Shop WOW Shopify project which includes the project overview, tools used and live links to the official site.</h4>
-            <a href='https://goshopwow.com/' className='text-white' style={{textDecoration: 'none'}} target='_blank'><button className='btn btn-custom btn-lg custom-button px-5 py-3'>PROJECT LINK</button></a>
+            <a href='https://goshopwow.com/' className='text-white' style={{textDecoration: 'none', pointerEvents:'none'}} target='_blank'><button className='btn btn-custom btn-lg custom-button px-5 py-3'>PROJECT LINK</button></a>
           </div>
         </div>
       </div>

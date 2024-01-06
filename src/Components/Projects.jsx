@@ -30,10 +30,10 @@ function Projects() {
           </div>
           <div className="d-lg-flex flex-lg-row justify-content-between align-items-center my-5 projects-block">
             <div className='col-12 col-lg-5'>
-                <Link to="/shop-wow"><img src={goshopwow} className='img-fluid'/></Link>
+                <Link to="/shop-wow"><img src={goshopwow} className='img-fluid' style={{opacity: .5}}/></Link>
             </div>
             <div className="d-flex flex-column ml-0 ml-md-3">
-                <h3 className="header">Shop WOW</h3>
+                <h3 className="header">Shop WOW <span className='text-muted'>(Under Maintenance)</span></h3>
                 <div className='mb-4'><i>Shopify Project</i></div>
                 <p className='body-text'>
                     Shop WOW is my personal project created with Shopify. I built this in order to show my proficiency with Shopify's tools. I can build a store from start to finish including adding products, creating email campaigns, and setting up marketing tools in house or via third-party.
