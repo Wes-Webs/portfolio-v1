@@ -16,6 +16,8 @@ import ShopWowBanner from './Components/ShopWowBanner.jsx';
 import ShopWow from './Components/ShopWow.jsx';
 import DonutShopBanner from './Components/DonutShopBanner.jsx';
 import DonutShop from './Components/DonutShop.jsx';
+import FirstClassBanner from './Components/1stClassRealEstateBanner.jsx';
+import FirstClass from './Components/1stClassRealEstate.jsx';
 import ErrorPage from './Components/ErrorPage.jsx';
 import ScrollToTop from "./ScrollToTop";
 
@@ -24,6 +26,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path="/" element={<><Navigation/><LandingPage/><About/><Projects/><Contact/></>}/>
+        <Route exact path="/first-class" element={<><NavigationProjects/><FirstClassBanner/><FirstClass/></>}/>
         <Route exact path="/shop-local" element={<><NavigationProjects/><ShopLocalBanner/><ShopLocal/></>}/>
         <Route exact path="/shop-wow" element={<><NavigationProjects/><ShopWowBanner/><ShopWow/></>}/>
         <Route exact path="/donut-shop" element={<><NavigationProjects/><DonutShopBanner/><DonutShop/></>}/>

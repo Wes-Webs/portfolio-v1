@@ -1,6 +1,7 @@
 import shoplocal from '../Images/image1.jpeg'
 import goshopwow from '../Images/image2.jpeg'
 import donutshop from '../Images/image3.jpeg'
+import firstclass from '../Images/image4.jpeg'
 import React from 'react';
 import { Link } from 'react-router-dom';
 function Projects() {
@@ -15,6 +16,19 @@ function Projects() {
               <div className="mx-2">&bull;</div>
           </div>
           <h5 className="text-center mb-5 sub-header">Here you will find some of the personal and client projects that I created with each project containing its own case study</h5>
+          <div className="d-lg-flex flex-lg-row justify-content-between align-items-center my-5 projects-block">
+            <div className='col-12 col-lg-5'>
+                <Link to="/shop-local"><img src={firstclass} className='img-fluid'/></Link>
+            </div>
+            <div className="d-flex flex-column ml-0 ml-md-3">
+                <h3 className="header">1st Class Real Estate</h3>
+                <div className='mb-4'><i>Client Project</i></div>
+                <p className='body-text'>
+                  Founded in 2012, 1st Class Real Estate has emerged as a trailblazer in the real estate industry. From our humble beginnings in Virginia, we have rapidly expanded to over 100 franchise locations nationwide, redefining the real estate franchise model along the way.
+                </p>
+                <Link to="/first-class" style={{textDecoration:'none'}}><button className='btn btn-custom-projects btn-lg custom-button px-5 py-3'>CASE STUDY</button></Link>
+            </div>
+          </div>
           <div className="d-lg-flex flex-lg-row justify-content-between align-items-center my-5 projects-block">
             <div className='col-12 col-lg-5'>
                 <Link to="/shop-local"><img src={shoplocal} className='img-fluid'/></Link>
