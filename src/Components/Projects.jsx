@@ -24,7 +24,7 @@ function Projects() {
                 <h3 className="header">1st Class Real Estate</h3>
                 <div className='mb-4'><i>Client Project</i></div>
                 <p className='body-text'>
-                  Founded in 2012, 1st Class Real Estate has emerged as a trailblazer in the real estate industry. From our humble beginnings in Virginia, we have rapidly expanded to over 100 franchise locations nationwide, redefining the real estate franchise model along the way.
+                  Founded in 2012, 1st Class Real Estate has emerged as a trailblazer in the real estate industry. From there humble beginnings in Virginia, they have rapidly expanded to over 100 franchise locations nationwide, redefining the real estate franchise model along the way.
                 </p>
                 <Link to="/first-class" style={{textDecoration:'none'}}><button className='btn btn-custom-projects btn-lg custom-button px-5 py-3'>CASE STUDY</button></Link>
             </div>
