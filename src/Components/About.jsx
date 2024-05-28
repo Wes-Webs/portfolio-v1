@@ -41,6 +41,7 @@ function About() {
                     <div className="border rounded px-3 py-2 mr-2 mb-2 bg-light skill-pill">Python</div>
                     <div className="border rounded px-3 py-2 mr-2 mb-2 bg-light skill-pill">Express</div>
                     <div className="border rounded px-3 py-2 mr-2 mb-2 bg-light skill-pill">Cold Fusion</div>
+                    <div className="border rounded px-3 py-2 mr-2 mb-2 bg-light skill-pill">Swift</div>
                     <div className="border rounded px-3 py-2 mr-2 mb-2 bg-light skill-pill">SQL</div>
                     <div className="border rounded px-3 py-2 mr-2 mb-2 bg-light skill-pill">GIT</div>
                     <div className="border rounded px-3 py-2 mr-2 mb-2 bg-light skill-pill">Github</div>
